@@ -11,12 +11,6 @@ install:
   - travis_retry composer self-update
   - travis_retry composer update --no-interaction --dev
 
-before_script:
-  - if [[ $ANALYZE == 'true' ]]; then travis_retry composer require php-coveralls/php-coveralls:^1.0 ; fi;
-
 script:
-  - if [[ $ANALYZE == 'true' ]]; then vendor/bin/phpunit --coverage-clover build/logs/clover.xml ; fi;
-  - if [[ $ANALYZE != 'true' ]]; then vendor/bin/phpunit ; fi;
-
-after_success:
-  - if [[ $ANALYZE == 'true' ]]; then php vendor/bin/coveralls -v ; fi
+  - vendor/bin/phpunit tests/*Tests.php
+  - vendor/bin/phpunit --exclude-group integration --coverage-text --coverage-clover coverage.xml
