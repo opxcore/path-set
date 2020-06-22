@@ -12,5 +12,5 @@ install:
   - travis_retry composer update --no-interaction
 
 script:
-  - vendor/bin/phpunit tests/*Tests.php
+  - vendor/bin/phpunit -c phpunit.xml
   - vendor/bin/phpunit --exclude-group integration --coverage-text --coverage-clover coverage.xml
