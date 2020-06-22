@@ -27,7 +27,7 @@ $set = $pathSet->get('name');
 ```
 Defining with a constructor:
 ```
-$pathSet = new PathSet(['name', 'primary', ['alternate_1', 'alternate_2']]);
+$pathSet = new PathSet(['name', ['primary', 'alternate_1', 'alternate_2']]);
 $set = $pathSet->get('name');
 // $set = [
 //   'alternate_2', 
@@ -48,5 +48,22 @@ $set = $pathSet->get('name');
 //   'global_alternate_2',
 //   'global_alternate_1',
 //   'global_primary'
+// ]
+```
+Adding alternates:
+```
+$pathSet = new PathSet(['name', ['primary', 'alternate_1']]);
+
+...
+
+$pathSet['name']->addAlternates(['alternate_2']);
+
+...
+
+$set = $pathSet->get('name');
+// $set = [
+//   'alternate_2', 
+//   'alternate_1', 
+//   'primary'
 // ]
 ```
