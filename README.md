@@ -10,10 +10,10 @@ Each `Path` is associated with primary path and alternates. In the `PathSet` eac
 set for some name will return array of registered paths for this name in backward order without duplicates.
 The `'*'` name is a global path set and will be included in all other sets.
 
-##Installing
+## Installing
 `composer require opxcore/path-set`
 
-##Examples
+## Examples
 Simple usage:
 ```
 $pathSet = new PathSet;
