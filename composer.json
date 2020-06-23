@@ -1,5 +1,5 @@
 {
-  "name": "opxcore/path-set",
+  "name": "opxcore/pathset",
   "description": "OpxCore path set component.",
   "type": "library",
   "keywords": [
@@ -8,8 +8,8 @@
   ],
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/opxcore/path-set/issues",
-    "source": "https://github.com/opxcore/path-set"
+    "issues": "https://github.com/opxcore/pathset/issues",
+    "source": "https://github.com/opxcore/pathset"
   },
   "authors": [
     {
