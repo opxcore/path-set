@@ -11,7 +11,7 @@ set for some name will return array of registered paths for this name in backwar
 The `'*'` name is a global path set and will be included in all other sets.
 
 ## Installing
-`composer require opxcore/path-set`
+`composer require opxcore/pathset`
 
 ## Examples
 Simple usage:
