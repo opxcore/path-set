@@ -1,9 +1,9 @@
 # Path set
 [![Build Status](https://travis-ci.org/opxcore/path-set.svg?branch=master)](https://travis-ci.org/opxcore/path-set)
 [![Coverage Status](https://coveralls.io/repos/github/opxcore/path-set/badge.svg?branch=master)](https://coveralls.io/github/opxcore/path-set?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/opxcore/path-set/v)](//packagist.org/packages/opxcore/path-set)
-[![Total Downloads](https://poser.pugx.org/opxcore/path-set/downloads)](//packagist.org/packages/opxcore/path-set) 
-[![License](https://poser.pugx.org/opxcore/path-set/license)](//packagist.org/packages/opxcore/path-set)
+[![Latest Stable Version](https://poser.pugx.org/opxcore/path-set/v)](//packagist.org/packages/opxcore/pathset)
+[![Total Downloads](https://poser.pugx.org/opxcore/path-set/downloads)](//packagist.org/packages/opxcore/pathset) 
+[![License](https://poser.pugx.org/opxcore/path-set/license)](//packagist.org/packages/opxcore/pathset)
 
 Path set is an abstraction level for defining sets of path collections, e.g. search paths.
 Each `Path` is associated with primary path and alternates. In the `PathSet` each path is associated with name. Getting
