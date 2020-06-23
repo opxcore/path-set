@@ -13,10 +13,10 @@ namespace OpxCore\PathSet;
 
 class Path
 {
-    /** @var string Primary path */
-    protected string $primary;
+    /** @var string|mixed Primary path */
+    protected $primary;
 
-    /** @var array|null Alternate paths */
+    /** @var array Alternate paths */
     protected array $alternates = [];
 
     /**
@@ -27,7 +27,7 @@ class Path
      *
      * @return  void
      */
-    public function __construct(string $primary, array $alternates = [])
+    public function __construct($primary, array $alternates = [])
     {
         $this->primary = $primary;
         $this->alternates = $alternates;
@@ -36,9 +36,9 @@ class Path
     /**
      * Primary path getter.
      *
-     * @return  string
+     * @return  string|mixed
      */
-    public function primary(): string
+    public function primary()
     {
         return $this->primary;
     }
@@ -73,11 +73,11 @@ class Path
     /**
      * Primary path setter.
      *
-     * @param string $primary
+     * @param string|mixed $primary
      *
      * @return  void
      */
-    public function setPrimary(string $primary): void
+    public function setPrimary($primary): void
     {
         $this->primary = $primary;
     }

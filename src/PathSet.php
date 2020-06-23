@@ -43,7 +43,7 @@ class PathSet implements ArrayAccess
      * Add path.
      *
      * @param string|null $name
-     * @param $primary
+     * @param string|mixed $primary
      * @param array $alternates
      *
      * @return  Path
