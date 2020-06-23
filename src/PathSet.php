@@ -28,7 +28,7 @@ class PathSet implements ArrayAccess
      *
      * @return  void
      */
-    public function __construct(?array $paths)
+    public function __construct(?array $paths = null)
     {
         if (!empty($paths)) {
             foreach ($paths as $name => $entries) {
