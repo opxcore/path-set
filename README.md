@@ -1,6 +1,6 @@
 # Path set
-[![Build Status](https://travis-ci.org/opxcore/path-set.svg?branch=master)](https://travis-ci.org/opxcore/path-set)
-[![Coverage Status](https://coveralls.io/repos/github/opxcore/path-set/badge.svg?branch=master)](https://coveralls.io/github/opxcore/path-set?branch=master)
+[![Build Status](https://travis-ci.org/opxcore/pathset.svg?branch=master)](https://travis-ci.org/opxcore/pathset)
+[![Coverage Status](https://coveralls.io/repos/github/opxcore/pathset/badge.svg?branch=master)](https://coveralls.io/github/opxcore/pathset?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/opxcore/pathset/v)](//packagist.org/packages/opxcore/pathset)
 [![Total Downloads](https://poser.pugx.org/opxcore/pathset/downloads)](//packagist.org/packages/opxcore/pathset) 
 [![License](https://poser.pugx.org/opxcore/pathset/license)](//packagist.org/packages/opxcore/pathset)
